@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'merge' => 'Spoji',
+    'merge_record' => 'Spajanje zapisa',
+    'primary_record' => 'Primarni zapis',
+    'target_record' => 'Ciljni zapis',
+    'select_target' => 'Izaberi zapis koji se spaja u primarni...',
+    'relations' => 'Relacije',
+    'merge_button' => 'Spoji ciljni u primarni',
+    'merge_confirm_title' => 'Potvrdi spajanje',
+    'merge_confirm_description' => 'HasMany i HasOne relacije sa ciljnog zapisa biće prebačene na primarni zapis. Ciljni zapis se zatim briše. Ova akcija je nepovratna.',
+    'merge_success' => 'Zapisi su uspešno spojeni.',
+    'merge_error' => 'Došlo je do greške prilikom spajanja.',
+    'merge_same_record' => 'Zapis ne može da se spoji sam sa sobom.',
+    'no_target_selected' => 'Prvo izaberi ciljni zapis.',
+    'relations_transferred' => ':count :relation prebačeno',
+    'relation_conflict' => ':relation preskočeno (primarni već ima zapis)',
+    'relations_skipped_pro' => ':count napredna relacija preskočena — polimorfne i many-to-many traže Model Merger Pro',
+    'target_deleted' => 'Ciljni zapis obrisan',
+    'target_soft_deleted' => 'Ciljni zapis soft-obrisan',
+    'target_placeholder_title' => 'Nije izabran cilj',
+    'target_placeholder_description' => 'Izaberi zapis iz padajuće liste iznad da ga uporediš jedan-do-drugog i spojiš u primarni.',
+    'will_transfer' => 'biće prebačeno',
+];

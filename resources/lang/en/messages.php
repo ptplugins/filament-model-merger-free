@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'merge' => 'Merge',
+    'merge_record' => 'Merge Record',
+    'primary_record' => 'Primary Record',
+    'target_record' => 'Target Record',
+    'select_target' => 'Select a record to merge into the primary...',
+    'relations' => 'Relations',
+    'merge_button' => 'Merge Target into Primary',
+    'merge_confirm_title' => 'Confirm Merge',
+    'merge_confirm_description' => 'HasMany and HasOne relations from the target record will be transferred to the primary record. The target record will then be deleted. This action cannot be undone.',
+    'merge_success' => 'Records merged successfully.',
+    'merge_error' => 'An error occurred during the merge.',
+    'merge_same_record' => 'Cannot merge a record with itself.',
+    'no_target_selected' => 'Please select a target record first.',
+    'relations_transferred' => ':count :relation transferred',
+    'relation_conflict' => ':relation skipped (primary already has a record)',
+    'relations_skipped_pro' => ':count advanced relation(s) skipped — polymorphic & many-to-many need Model Merger Pro',
+    'target_deleted' => 'Target record deleted',
+    'target_soft_deleted' => 'Target record soft-deleted',
+    'target_placeholder_title' => 'No target selected',
+    'target_placeholder_description' => 'Pick a record from the dropdown above to compare it side-by-side and merge it into the primary.',
+    'will_transfer' => 'will transfer',
+];
